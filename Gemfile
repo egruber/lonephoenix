@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
-# Use Ruby 2.4.0 for work
-ruby "2.3.1"
+# Use Ruby 2.3.0 for work
+ruby "2.3.0"
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.0.0', '>= 5.0.0.1'
