@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
-  get 'statics/home'
-  get 'statics/help'
+  get 'foo/help'
 
+  get 'statics/home'
   resources :posts
   resources :users
 
