@@ -1,6 +1,5 @@
 Rails.application.routes.draw do
-  resources :posts
-  resources :users
-
+  get 'blog/home'
+  get 'blog/about'
   root 'application#start'
 end
